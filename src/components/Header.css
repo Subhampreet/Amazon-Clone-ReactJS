@@ -1,0 +1,98 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header-logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+.header-search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header-searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.header-search-icon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-option-main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 5px;
+    color: white;
+}
+
+
+.header-option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+}
+
+.header-option-one{
+    font-size: 12px;
+    letter-spacing: 0.04rem;
+    font-weight: 400;
+}
+
+.header-option-two{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+}
+
+.header-option-basket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header-basket-icon{
+    margin-left: 10px;
+    font-size: 30px !important;
+}
+
+.header-basket-count{
+    margin-right: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: rgb(231, 80, 10);
+}

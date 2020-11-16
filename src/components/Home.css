@@ -1,0 +1,13 @@
+.home{
+
+}
+
+.home-image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    object-fit: contain;
+    
+
+    /* mask-image: linear-gradient(to bottom, rgb(0, 0, 0,1), rgba(0, 0, 0, 0.09)); */
+}
