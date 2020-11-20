@@ -38,6 +38,10 @@
     margin-top: 10px;
 }
 
+.product > button:hover{
+    background: #ebb839;
+}
+
 
 .product > img{
     max-height: 200px;

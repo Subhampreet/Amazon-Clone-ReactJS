@@ -17,7 +17,8 @@ function Footer() {
           <h5>Gift a Smile</h5>
         </div>
         <div className="footer-row">
-          <h3>Facebook</h3>
+          <h3>Connect with Us</h3>
+          <h5>Facebook</h5>
           <h5>Twitter</h5>
           <h5>Instagram</h5>
         </div>
